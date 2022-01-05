@@ -142,12 +142,10 @@
         line-height: 1.5em;
         letter-spacing: 1;
         padding-right: 50px;
-        clear: both;
     }
     
     .hire-me-button {
         margin-top: 30px;
-        clear: both;
     }
     
     .hire-me-button a {
@@ -182,3 +180,125 @@
         width: 100%
     }
     /* about css end */
+    /* services css start */
+    
+    #services {
+        padding: 50px 0;
+    }
+    
+    .services {}
+    
+    .services-items {
+        width: 30%;
+        text-align: center;
+        position: relative;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    
+    .items {
+        background-color: #D3117F;
+        padding: 20px 20px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+    .items img {
+        width: 100%;
+    }
+    
+    .items .item-heading {
+        color: #fff;
+    }
+    
+    .items .item-text {
+        margin-top: 10px;
+        color: #dadada;
+    }
+    
+    .item-overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #D3117F;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        transition: .5s;
+        transform: scale(0);
+        border-radius: 10px;
+    }
+    
+    .services-items:hover .item-overlay {
+        width: 100%;
+        opacity: .95;
+        transition: .5s;
+        transform: scale(1);
+    }
+    
+    .hire-me-button2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .hire-me-button2 a {
+        width: 100px;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: rgb(255, 153, 0);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        border: 2px solid rgb(255, 153, 0);
+        transition: .3s;
+    }
+    
+    .hire-me-button2 a:hover {
+        background-color: #fff;
+        color: rgb(255, 153, 0);
+        transition: .3s;
+        border: 2px solid rgb(255, 153, 0);
+    }
+    
+    .b2 {
+        background-color: #01AAB9 !important;
+    }
+    
+    .o1 {
+        background: #01AAB9 !important;
+    }
+    
+    .o2 {
+        background-color: rgb(255, 153, 0);
+        !important;
+    }
+    
+    .b3 {
+        background-color: rgb(255, 153, 0);
+        !important;
+    }
+    
+    .c3 a {
+        background-color: #01AAB9 !important;
+        border: 2px solid #01AAB9 !important;
+    }
+    
+    .c2 a {
+        background-color: #D3117F !important;
+        border: 2px solid #D3117F !important;
+    }
+    
+    .c2 a:hover {
+        background-color: #fff !important;
+        color: #D3117F;
+    }
+    
+    .c3 a:hover {
+        background-color: #fff !important;
+        color: #01AAB9;
+    }
+    /* services css end */
