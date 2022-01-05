@@ -1,111 +1,184 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a,
-a:focus,
-a:hover {
-    text-decoration: none;
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-a,
-a:focus,
-a:hover {
-    text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-    width: 1170px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-
-/* header css start */
-
-.portfolio-header {
-    padding: 40px 0;
-}
-
-.logo {
-    width: 30%;
-    text-align: center;
-}
-
-.logo h1 {
-    color: rgb(255, 153, 0);
-    font-size: 40px;
-}
-
-.menu {
-    width: 60%;
-    text-align: center;
-}
-
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #333;
-}
-
-.menu ul li {
-    transition: .3s;
-    transform: scale(1);
-}
-
-.menu ul li:hover {
-    color: rgb(255, 153, 0);
-    transition: .3s;
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.button {
-    width: 10%;
-    text-align: center;
-}
-
-.button a {
-    padding: 10px 20px;
-    color: #fff;
-    background-color: rgb(255, 153, 0);
-    font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
-    border: 2px solid #fff;
-    transition: .3s;
-}
-
-.button a:hover {
-    background-color: #fff;
-    color: rgb(255, 153, 0);
-    transition: .3s;
-    border: 2px solid rgb(255, 153, 0);
-}
-
-
-/* header css end */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a,
+    a:focus,
+    a:hover {
+        text-decoration: none;
+    }
+    
+    ul,
+    ol {
+        list-style: none;
+    }
+    
+    a,
+    a:focus,
+    a:hover {
+        text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    li {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    p {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .container {
+        width: 1170px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    /* header css start */
+    
+    .portfolio-header {
+        padding: 40px 0;
+    }
+    
+    .logo {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .logo h1 {
+        color: rgb(255, 153, 0);
+        font-size: 40px;
+    }
+    
+    .menu {
+        width: 60%;
+        text-align: center;
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #333;
+    }
+    
+    .menu ul li {
+        transition: .3s;
+        transform: scale(1);
+    }
+    
+    .menu ul li:hover {
+        color: rgb(255, 153, 0);
+        transition: .3s;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+    .button {
+        width: 10%;
+        text-align: center;
+    }
+    
+    .button a {
+        padding: 10px 20px;
+        color: #fff;
+        background-color: rgb(255, 153, 0);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        border: 2px solid #fff;
+        transition: .3s;
+    }
+    
+    .button a:hover {
+        background-color: #fff;
+        color: rgb(255, 153, 0);
+        transition: .3s;
+        border: 2px solid rgb(255, 153, 0);
+    }
+    /* header css end */
+    /* about css start */
+    
+    #about {
+        background-image: url(../images/Untitled\ design\ \(2\).gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .about {}
+    
+    .about-text {
+        width: 60%;
+        padding-right: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .about-text .about-title {
+        font-size: 50px;
+        letter-spacing: px;
+    }
+    
+    .about-text .portfolio {
+        color: #D3117F;
+        letter-spacing: 15px;
+    }
+    
+    .about-text .sub-about {
+        padding-right: 200px;
+        margin: 10px 0;
+        font-size: 22px;
+    }
+    
+    .about-text .about-details {
+        line-height: 1.5em;
+        letter-spacing: 1;
+        padding-right: 50px;
+        clear: both;
+    }
+    
+    .hire-me-button {
+        margin-top: 30px;
+        clear: both;
+    }
+    
+    .hire-me-button a {
+        display: block;
+        width: 100px;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: rgb(255, 153, 0);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        border: 2px solid #fff;
+        transition: .3s;
+        text-align: center;
+    }
+    
+    .hire-me-button a:hover {
+        background-color: #fff;
+        color: rgb(255, 153, 0);
+        transition: .3s;
+        border: 2px solid rgb(255, 153, 0);
+    }
+    
+    .about-img {
+        width: 40%;
+        padding-left: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    
+    .about-img .img img {
+        width: 100%
+    }
+    /* about css end */
